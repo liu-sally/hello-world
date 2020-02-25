@@ -1,0 +1,144 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions",Universe,"Variable List"
+"Youth courts, guilty cases by length of probation",35100045,252-0071,"https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3510004501",1;2;3;21;24,"CURRENT - a cube available to the public and that is current",Annual,1991-01-01,2017-01-01,6,,
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Correction Notes","Dimension Definitions"
+1,Geography,4,,
+2,Offences,10;11,,
+3,"Age of accused",19,,
+4,"Sex of accused",6,,
+5,"Type of guilty finding",21,,
+6,"Length of probation",7;9;22,,
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Correction Notes","Member Geo Attribute Keys","Member Definitions"
+1,Canada,[11124],1,,,5,,,
+1,"Newfoundland and Labrador",[10],2,1,,,,,
+1,"Prince Edward Island",[11],3,1,,,,,
+1,"Nova Scotia",[12],4,1,,,,,
+1,"New Brunswick",[13],5,1,,26,,,
+1,Quebec,[24],6,1,,26,,,
+1,Ontario,[35],7,1,,,,,
+1,Manitoba,[46],8,1,,6;7,,,
+1,Saskatchewan,[47],9,1,,,,,
+1,Alberta,[48],10,1,,,,,
+1,"British Columbia",[59],11,1,,26,,,
+1,Yukon,[60],12,1,,27,,,
+1,"Northwest Territories including Nunavut",,13,1,t,8,,,
+1,"Northwest Territories",[61],14,1,,8;9,,,
+1,Nunavut,[62],15,1,,8,,,
+2,"Total offences",,1,,,,,,
+2,"Total Criminal Code",,2,1,,,,,
+2,"Criminal Code (without traffic)",,3,2,,,,,
+2,"Crimes against the person",,4,3,,,,,
+2,Homicide,,5,4,,12,,,
+2,"Attempted murder",,6,4,,,,,
+2,Robbery,,7,4,,,,,
+2,"Sexual assault",,8,4,,,,,
+2,"Other sexual offences",,9,4,,13,,,
+2,"Major assault",,10,4,,14,,,
+2,"Common assault",,11,4,,15,,,
+2,"Uttering threats",,12,4,,,,,
+2,"Criminal harassment",,13,4,,,,,
+2,"Other crimes against persons",,14,4,,,,,
+2,"Crimes against property",,15,3,,,,,
+2,Theft,,16,15,,16,,,
+2,"Break and enter",,17,15,,,,,
+2,Fraud,,18,15,,,,,
+2,Mischief,,19,15,,,,,
+2,"Possess stolen property",,20,15,,,,,
+2,"Other property crimes",,21,15,,,,,
+2,"Administration of justice",,22,3,,,,,
+2,"Fail to appear",,23,22,,,,,
+2,"Breach of probation",,24,22,,,,,
+2,"Unlawfully at large",,25,22,,,,,
+2,"Fail to comply with order",,26,22,,,,,
+2,"Other administration of justice",,27,22,,,,,
+2,"Other Criminal Code",,28,3,,,,,
+2,Weapons,,29,28,,,,,
+2,Prostitution,,30,28,,,,,
+2,"Disturbing the peace",,31,28,,,,,
+2,"Residual Criminal Code",,32,28,,,,,
+2,"Criminal Code traffic",,33,2,,,,,
+2,"Impaired driving",,34,33,,,,,
+2,"Other Criminal Code traffic",,35,33,,,,,
+2,"Other federal statutes",,36,1,,17;25,,,
+2,"Drug possession",,37,36,,25,,,
+2,"Other drug offences",,38,36,,23;25,,,
+2,"Youth Criminal Justice Act",,39,36,,18,,,
+2,"Residual federal statutes",,40,36,,25,,,
+3,"Total guilty cases with probation, age of accused",,1,,,,,,
+3,"12 to 15 years",,2,1,,,,,
+3,"16 and 17 years",,3,1,,,,,
+3,"Other ages",,4,1,,20,,,
+3,"Age not applicable",,5,1,,,,,
+4,"Total guilty cases with probation, sex of accused",,1,,,,,,
+4,Males,,2,1,,,,,
+4,Females,,3,1,,,,,
+4,Company,,4,1,,,,,
+4,"Sex unknown",,5,1,,,,,
+5,"Total guilty cases, with probation",,1,,,,,,
+5,"Cases with a single guilty finding",,2,1,,,,,
+5,"Cases with multiple guilty findings",,3,1,,,,,
+6,"Total guilty cases, length of probation",,1,,,,,,
+6,"3 months or less",,2,1,,,,,
+6,"Greater than 3 months to 6 months",,3,1,,,,,
+6,"Greater than 6 months to 12 months",,4,1,,,,,
+6,"Greater than 1 year to 2 years",,5,1,,,,,
+6,"Greater than 2 years to 3 years",,6,1,,,,,
+6,"Length unknown",,7,1,,,,,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period",..
+"less than the limit of detection",<LOD
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded",0s
+"data quality: excellent",A
+"data quality: very good",B
+"data quality: good",C
+"data quality: acceptable",D
+"use with caution",E
+"too unreliable to be published.",F
+"not applicable",...
+preliminary,p
+revised,r
+"suppressed to meet the confidentiality requirements of the Statistics Act",x
+terminated,t
+
+"Survey Code","Survey Name"
+3312,"Integrated Criminal Court Survey"
+
+"Subject Code","Subject Name"
+35,"Crime and justice"
+
+"Note ID",Note
+1,"This product is based on data collected from the youth component of the Integrated Criminal Court Survey (ICCS). The ICCS is administered by the Canadian Centre for Justice Statistics (Statistics Canada) in collaboration with provincial and territorial government departments responsible for criminal courts in Canada. The survey collects statistical information on adult and youth court cases involving Criminal Code and other federal statute offences. Data contained in this table represent the youth court portion of the survey. The individuals involved are persons aged 12 to 17 years at the time of the offence. Data are based on a fiscal year (April 1 through March 31)."
+2,"A case is one or more charges against an accused person or company, which were processed by the courts at the same time (date of offence, date of initiation, date of first appearance, or date of decision), and received a final decision. The definition attempts to reflect court processing. All data have been processed using this case definition. The case definition changed for the 2006/2007 release of data. The former definition (used in releases prior to October 2007) combined all charges against the same person disposed of in court on the same day into a case. Consequently, comparisons should not be made with data tables and reports released before that time."
+3,"Cases are counted according to the fiscal year in which they are completed. Each year, the ICCS database is considered final at the end of March for the production of court statistics pertaining to the preceding fiscal year. These counts do not include cases that were pending a final decision at the end of the reference period. If a final decision is reached in the next fiscal year, then these cases are included in the completed case counts for that fiscal year. However, if a one-year period of inactivity elapses, then these cases are deemed complete and the originally published counts for the previous fiscal year are subsequently updated and reported in the next year's release of the data. Historically, updates to a previous year's counts have resulted in an increase of about 2%."
+4,"There are many factors that influence variations between jurisdictions. These may include Crown and police charging practices, offence distributions, and various forms of diversion programs. Therefore, comparisons between jurisdictions should be interpreted with caution."
+5,"All youth courts in Canada have reported to the survey since the 1991/1992 fiscal year."
+6,"Information on the sex of the accused is not available from Manitoba as of 2005/2006."
+7,"Length of probation data are not available for Manitoba data as of 2005/2006."
+8,"Due to the creation of Nunavut from the Northwest Territories, data collected prior to 1999/2000 cannot be compared to data collected after that date for these jurisdictions."
+9,"Since 2004/2005 for the Northwest Territories, the number of custody orders have been under-reported and the number of probation orders have been over-reported by unknown amounts due to clerical procedures. The majority of custody orders were captured as probation."
+10,"The Common Offence Classification (COC) is a standard grouping of offences (for example, major assault, impaired driving) involving 32 offence categories. This offence framework permits users to compare analytical results across the different databases, and to examine data from different sectors of the justice system using a single set of offence categories. Each common offence category is constructed by aggregating individual Uniform Crime Reporting offence categories into the larger common categories."
+11,"A case that has more than one charge is represented by the charge with the ""most serious offence"" (MSO). The most serious offence is selected using the following rules. First, court decisions are considered and the charge with the ""most serious decision"" (MSD) is selected. Court decisions for each charge in a case are ranked from most to least serious as follows: (1) guilty, (2) guilty of a lesser offence, (3) acquitted, (4) stay of proceeding, (5) withdrawn, dismissed or discharged, (6) not criminally responsible, (7) other, and (8) transfer of court jurisdiction. Second, in cases where two or more charges result in the same MSD (for example, guilty), Criminal Code sanctions are considered. The charge with the most serious offence type is selected according to an offence seriousness scale, based on actual sentences handed down by courts in Canada (The offence seriousness scale is calculated using data from both the adult and youth components of the Integrated Criminal Court Survey from 2006/2007 to 2010/2011). Each offence type is ranked by looking at (1) the proportion of guilty charges where custody was imposed and (2) the average (mean) length of custody for the specific type of offence. These values are multiplied together to arrive at the final seriousness ranking for each type of offence. If, after looking at the offence seriousness scale, two or more charges remain tied then information about the sentence type and duration of the sentence are considered (for example, custody and length of custody, then probation and length of probation, etcetera)."
+12,"Homicide includes first-degree murder, second-degree murder, manslaughter and infanticide."
+13,"Other sexual offences includes, for example, sexual interference, invitation to sexual touching, luring a child via a computer and sexual exploitation. Commodification of sexual activity offences are included under the category of ‘Other crimes against persons’."
+14,"Major assault is an offence category that includes assault with a weapon (Level 2, Criminal Code of Canada, section 267), aggravated assault (Level 3, Criminal Code of Canada, section 268) and other assaults (assaults against police officers, and unlawfully causing bodily harm)."
+15,"Common assault (Level 1 Assault, Criminal Code of Canada, section 266) is the least serious of the three types. A common assault has been committed when an individual intentionally applies force or threatens to apply force to another person, without that person's consent. The seriousness of physical injury is what distinguishes this type of assault from other, more serious assaults."
+16,"Theft includes theft over and under $5,000 as well as motor vehicle theft."
+17,"Other  federal statute offences refer to offences against Canadian federal statutes, such as Customs Act, Employment Insurance Act, Firearms Act, Food and Drugs Act (FDA), Income Tax Act, Controlled Drugs and Substances Act (CDSA) and Narcotic Control Act (NCA). This offence category excludes Criminal Code of Canada offences."
+18,"Youth Criminal Justice Act (YCJA) offences include the offences of inducing a young person, failure to comply with a sentence or disposition, publishing the identity of offenders, victims or witnesses and failure to comply with a designated temporary place of detention. The YCJA came into effect on April 1, 2003."
+19,"Age is the age of the accused at the time of the offence."
+20,"Other ages includes cases where the accused was older than 17 years at the time of offence, or the age was unknown."
+21,"Guilty findings include guilty of the charged offence, of an included offence, of an attempt of the charged offence, or of an attempt of an included offence. This category also includes guilty pleas, and cases where an absolute or conditional discharge has been imposed."
+22,"Probation sentences are less serious than a custodial sentence. Probation orders carry conditions that convicted individuals have to meet in order to continue serving their sentence in the community. Some of the conditions placed on probation orders include: firearms restrictions, license restrictions, community service, order of prohibition, and a restriction against the accused holding public office."
+23,"Includes drug trafficking, production, importing and exporting."
+24,"In 2012/2013, changes to the processing system for Integrated Criminal Court Survey (ICCS) data led to a better classification of sentencing information for Manitoba."
+25,"For the years 2011/2012 and 2012/2013, detailed information from youth courts in Quebec on 'drug possession', 'other drug offences' and 'residual federal statutes' is not available. However, counts for those cases are included in the total for 'Other federal statutes'."
+26,"Pre-charge screening refers to a formal process whereby a Crown prosecutor (as opposed to police) determines whether a charge is officially laid and proceeds to court. Pre-charge screening is meant to keep less serious cases out of the court system and reduce court workload. The use of pre-charge screening by the Crown may also affect the number and percentage of cases resulting in a guilty finding through increased vetting of charges. Currently in Canada, pre-charge screening systems are in place in New Brunswick, Quebec and British Columbia."
+27,"In 2017/2018, updates and improvements to the Yukon electronic reporting system were implemented. 
+"
+
+"Dimension ID","Member ID","Attribute Key",Title,Label,"Long Label",Value
+
+
